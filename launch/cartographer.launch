@@ -15,6 +15,9 @@
     <!--<remap from="ignore_odom" to="odom" />-->
   </node>
 
+  <node name="fake_landmark_pub" pkg="mir_cartographer_test" type="fake_landmark_pub.py" respawn="false" output="screen">
+  </node>
+
 
 </launch>
 
